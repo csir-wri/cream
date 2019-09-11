@@ -1,0 +1,37 @@
+nav {
+    padding-left: 2em;
+    padding-right: 1em;
+}
+
+.banner-caption {
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+.caption-highlight {
+    color: blue;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.intro-text {
+    text-align: justify;
+    padding: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro-text p {
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+.intro-text h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #0288d1;
+}
+
+blockquote {
+    font-size: 1.3em;
+    font-style: italic;
+}
