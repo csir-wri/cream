@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav {
     padding-left: 2em;
     padding-right: 1em;
@@ -35,3 +36,48 @@ blockquote {
     font-size: 1.3em;
     font-style: italic;
 }
+=======
+nav {
+    padding-left: 2em;
+    padding-right: 1em;
+    position: fixed;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.banner-caption {
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+.caption-highlight {
+    color: blue;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.intro-text {
+    text-align: justify;
+    padding: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro-text p {
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+.intro-text h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #0288d1;
+}
+
+blockquote {
+    font-size: 1.3em;
+    font-style: italic;
+}
+>>>>>>> f03a03569e3b0b8eb492422e0673147e7f9284c3
