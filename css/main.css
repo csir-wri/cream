@@ -45,12 +45,25 @@ img {
 }
 
 .intro-text p {
-    font-size: 1.3em;
+    font-size: 1.15em;
     line-height: 2em;
 }
 
 .intro-text h4 {
     text-transform: uppercase;
+    font-weight: 500;
+    color: #0288d1;
+    text-align: center;
+}
+
+.work-package {
+    font-size: 1.15em;
+    line-height: 2em;
+    padding: 2em;
+}
+
+.work-package h4 {
+    text-transform: capitalize;
     font-weight: 500;
     color: #0288d1;
 }
