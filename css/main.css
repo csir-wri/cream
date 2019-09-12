@@ -1,11 +1,30 @@
 nav {
     padding-left: 2em;
     padding-right: 1em;
+    position: fixed;
 }
 
 a.brand-logo img {
     width: 80%;
     height: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.affiliates {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.affiliates img {
+    box-sizing: content-box;
+    height: 96px;
+    width: auto;
+    padding: 16px;
 }
 
 .banner-caption {
