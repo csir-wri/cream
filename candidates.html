@@ -2,23 +2,25 @@
 <html>
 
 <head>
-        <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CREAM PROJECT - PHD Candidates</title>
+    <title>CREAM PROJECT</title>
 </head>
 
 <body>
-    <div class="nav-wrapper blue lighten-3">
-        <nav class="transparent">
-            <a href="./index.html" class="brand-logo"><img src="img/CREAM Logo Sample.svg" class="responsive-img"></a>
+    <div class="nav-wrapper">
+        <nav class="transparent blue lighten-3">
+            <a href="./index.html">
+                <img class="logo-img" src="img/CREAM-Logo-temp.svg" />
+            </a>
             <a href="#" class="button-collapse" data-activates="mobile-nav">
                 <i class="material-icons">menu</i>
             </a>
@@ -34,7 +36,7 @@
                     <a href="./candidates.html">PHD Candidates</a>
                 </li>
                 <li>
-                    <a href="#">Work Packages</a>
+                    <a href="html/workpackages.html">Work Packages</a>
                 </li>
             </ul>
             <!-- small screen navbar -->
@@ -49,10 +51,12 @@
                     <a href="#">PHD Candidates</a>
                 </li>
                 <li>
-                    <a href="#">Work Packages</a>
+                    <a href="html/workpackages.html">Work Packages</a>
                 </li>
             </ul>
         </nav>
+        <!-- Empty DIV to prevent following elements from 'submarining' -->
+        <div style="height: 96px"></div>
     </div>
     <!-- Section Banner -->
     <section class="section section-banner grey lighten-5">
