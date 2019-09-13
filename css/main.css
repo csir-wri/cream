@@ -63,7 +63,7 @@ img {
     padding: 2em;
 }
 
-.work-package h4 {
+.work-package header {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 115%;
