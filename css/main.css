@@ -62,9 +62,10 @@ img {
     padding: 2em;
 }
 
-.work-package h4 {
+.work-package header {
     text-transform: capitalize;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 115%;
     color: #0288d1;
 }
 
