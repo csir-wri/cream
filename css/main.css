@@ -80,6 +80,21 @@ blockquote {
     color: #1565c0 !important;
 }
 
+.card .candidate-photo {
+    width: 128px;
+    height: 160px;
+    background: radial-gradient(#0288d1, #1565c0);
+    float: left;
+    margin: 8px;
+}
+
 .card {
    margin-bottom: 3em !important;
+   overflow: auto;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
 }
