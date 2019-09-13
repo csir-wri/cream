@@ -51,7 +51,7 @@ img {
 }
 
 .intro-text h4 {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 500;
     color: #0288d1;
     text-align: center;
@@ -75,18 +75,22 @@ blockquote {
     font-style: italic;
 }
 
-.phd-position {
-    font-style: italic;
+p.phd-position {
+    /* font-style: italic; */
     font-weight: bold;
+    font-size: 125%;
+    line-height: unset;
     color: #1565c0 !important;
 }
 
-.card .candidate-photo {
+.candidate-photo {
     width: 128px;
     height: 160px;
-    background: radial-gradient(#0288d1, #1565c0);
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIGhlaWdodD0nMjAnIHdpZHRoPScxNicgdmVyc2lvbj0nMS4xJz48cGF0aCBzdHlsZT0nZmlsbDojYTdhN2E3JyBkPSdNIDEwLjIxODg1OCwxMy45NDQ4MTIgQyAxMC4xMTg0MjIsMTMuOTExOTY1IDkuNDgzNTkzOCwxMy42MjU4MTkgOS44ODAyODI2LDEyLjQxOTk2MSBsIC0wLjAwNTY5LDAgQyAxMC45MDg2NDEsMTEuMzU0OTY1IDExLjY5ODg2LDkuNjQxMjQ0NSAxMS42OTg4Niw3Ljk1NDA1MzkgYyAwLC0yLjU5NDI2ODcgLTEuNzI1MDkwMywtMy45NTQyNTQyIC0zLjczMDAxMDgsLTMuOTU0MjU0MiAtMi4wMDYxODQsMCAtMy43MjE3OTk3LDEuMzU5MzUzOCAtMy43MjE3OTk3LDMuOTU0MjU0MiAwLDEuNjk0MTM4OSAwLjc4NTc5NzUsMy40MTQ4MDgxIDEuODI2MTU4LDQuNDc3Mjc3MSAwLjQwNTUzMjEsMS4wNjM3MzIgLTAuMzE5NjI1LDEuNDU4NTI2IC0wLjQ3MTIyNTgsMS41MTM0ODEgLTEuNDEzNjc3NSwwLjQ1NzMzIC01LjI1ODY1MjgzLDIuNzM2Mzk1IC01LjE5ODAxMjUxLDYuMDU1MTg5IGwgMTUuMTkxNjYzODEsMCBjIDAuMDY3NTksLTMuMTcwOTgzIC0yLjk3MzkwMywtNS4yMjk1OTYgLTUuMzc3NDA3LC02LjA1NTE4OScgLz48L3N2Zz4g");
+    background-size: 100%;
     float: left;
-    margin: 8px;
+    margin: 0 12px 12px 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .card {
@@ -94,7 +98,7 @@ blockquote {
    overflow: auto;
 }
 
-.clearfix::after{
+.card::after{
     content: "";
     clear: both;
     display: table;
