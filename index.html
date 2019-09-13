@@ -2,39 +2,24 @@
 <html>
 
 <head>
-  <link type="text/css"
-        rel="stylesheet"
-        href="css/main.css" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
   <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css"
-        rel="stylesheet"
-        href="css/materialize.min.css"
-        media="screen,projection" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-        rel="stylesheet">
-  <link type="text/css"
-        rel="stylesheet"
-        href="css/main.css" />
-
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CREAM PROJECT</title>
 </head>
 
 <body>
-  <div class="nav-wrapper">
-    <nav class="transparent blue lighten-3">
+  <nav class="transparent blue lighten-3">
+    <div class="nav-wrapper">
       <a href="./index.html">
-        <img class="logo-img"
-             src="img/CREAM-Logo-temp.svg" />
+        <img class="logo-img" src="./img/CREAM-Logo-temp.svg" />
       </a>
-      <a href="#"
-         class="button-collapse"
-         data-activates="mobile-nav">
+      <a href="#" class="button-collapse" data-activates="mobile-nav">
         <i class="material-icons">menu</i>
       </a>
       <!-- main navbar -->
@@ -52,26 +37,26 @@
           <a href="./html/workpackages.html">Work Packages</a>
         </li>
       </ul>
-      <!-- small screen navbar -->
-      <ul class="side-nav"
-          id="mobile-nav">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="./html/candidates.html">PHD Candidates</a>
-        </li>
-        <li>
-          <a href="html/workpackages.html">Work Packages</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- Empty DIV to prevent following elements from 'submarining' -->
-    <div style="height: 96px"></div>
-  </div>
+    </div>
+  </nav>
+  <!-- small screen navbar -->
+  <ul class="side-nav" id="mobile-nav">
+    <li>
+      <a href="./index.html">Home</a>
+    </li>
+    <li>
+      <a href="#">About</a>
+    </li>
+    <li>
+      <a href="./html/candidates.html">PHD Candidates</a>
+    </li>
+    <li>
+      <a href="./html/workpackages.html">Work Packages</a>
+    </li>
+  </ul>
+  <!-- Empty DIV to prevent following elements from 'submarining' -->
+  <div style="height: 96px"></div>
+
   <section class="intro-text">
     <div class="row">
       <div class="col s12">
@@ -106,29 +91,20 @@
     <div class="row">
       <div class="col s12">
         <h4>Affiliates</h4>
-        <div class="affiliates"
-             style="flex-direction: row">
-          <img src="img/affiliates/knustlogo.png"
-               alt="KNUST Logo" />
-          <img src="img/affiliates/Aarhus_University_logo.png"
-               alt="Aaarhus University Logo" />
-          <img src="img/affiliates/cqu-logo.png"
-               alt="Central Queens University Logo" />
-          <img src="img/affiliates/geus_gb_logo_header.png"
-               alt="Geological Survey of Denmark and Greenland Logo" />
-          <img src="img/affiliates/gmet.png"
-               alt="Ghana Meteorological Agency Logo" />
-          <img src="img/affiliates/fri_logo6.png"
-               alt="CSIR-Food Research Institute Logo" />
+        <div class="affiliates" style="flex-direction: row">
+          <img src="img/affiliates/knustlogo.png" alt="KNUST Logo" />
+          <img src="img/affiliates/Aarhus_University_logo.png" alt="Aaarhus University Logo" />
+          <img src="img/affiliates/cqu-logo.png" alt="Central Queens University Logo" />
+          <img src="img/affiliates/geus_gb_logo_header.png" alt="Geological Survey of Denmark and Greenland Logo" />
+          <img src="img/affiliates/gmet.png" alt="Ghana Meteorological Agency Logo" />
+          <img src="img/affiliates/fri_logo6.png" alt="CSIR-Food Research Institute Logo" />
         </div>
       </div>
     </div>
   </section>
   <!--Import jQuery before materialize.js-->
-  <script type="text/javascript"
-          src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript"
-          src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
     $(document).ready(function () {
       // Custom JS & jQuery here
