@@ -1,2 +1,2 @@
 # CREAM
-Static Site CREAM Project
+Visit https://kokosakyi.github.io/CREAM
